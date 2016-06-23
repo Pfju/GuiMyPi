@@ -5,6 +5,12 @@
 
 #define MAX_READ 500
 
+/*
+ * Parameters: void
+ * Return: double - temperature
+ * Description:
+ * Access temperature.dat to read the temperature and return it.
+ */
 double GetTemperature(void)
 {
 	double temperature = 0;
